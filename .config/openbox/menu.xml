@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+  <separator label="QUICK START"/>
+  <menu id="0.787780512197973" icon="/home/drith/.config/obmenu-generator/icons/a44948f67390c095c9de36671b8a18f5.png" label="Launch Apps">
+  <menu id="0.756926262143196" icon="/home/drith/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png" label="Accessories">
+    <item label="Bulk Rename" icon="/home/drith/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/drith/.config/obmenu-generator/icons/253ccbfd9dc6b320c2bf7b7010063ded.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="File Manager" icon="/home/drith/.config/obmenu-generator/icons/31b0d0fac135598671b1c4187d445ccf.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/drith/.config/obmenu-generator/icons/08143f8bb82c44cd63a021079db1b4c3.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Leafpad" icon="/home/drith/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[leafpad]]></command></action></item>
+    <item label="Neovim" icon="/home/drith/.config/obmenu-generator/icons/2f75bf9f3adc8b2125d8ae77f5fe1c53.png"><action name="Execute"><command><![CDATA[urxvt -e 'nvim']]></command></action></item>
+    <item label="nitrogen" icon="/home/drith/.config/obmenu-generator/icons/65406b63eff322a0d25ce3d3206dc6ba.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Parcellite" icon="/home/drith/.config/obmenu-generator/icons/5033ffd1ab13f4ae971fca441107fe27.png"><action name="Execute"><command><![CDATA[parcellite]]></command></action></item>
+    <item label="picom" icon="/home/drith/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[picom]]></command></action></item>
+    <item label="Plank" icon="/home/drith/.config/obmenu-generator/icons/2ec39e323a377035ec02bd3e64eff9c8.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/drith/.config/obmenu-generator/icons/43b91b3a50e184689fe3cb3ee4eafcad.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/drith/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Vim" icon="/home/drith/.config/obmenu-generator/icons/80360f54fa1dd6ed0fcd2d2f0ad26f63.png"><action name="Execute"><command><![CDATA[urxvt -e 'vim']]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/drith/.config/obmenu-generator/icons/dee989eb02cc83f25de9841a33800206.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+    <item label="VSCodium" icon="/home/drith/.config/obmenu-generator/icons/23a3e1b2d00b3ae5a83f1108228be111.png"><action name="Execute"><command><![CDATA[/usr/share/vscodium/bin/codium --no-sandbox --unity-launch]]></command></action></item>
+    <item label="Xarchiver" icon="/home/drith/.config/obmenu-generator/icons/00993ab77d22edabeea10c51dd10d69a.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+  </menu>
+  <menu id="0.194642314958525" icon="/home/drith/.config/obmenu-generator/icons/eeef813b6b1324aba3ebf4fd828022b3.png" label="Development">
+    <item label="Geany" icon="/home/drith/.config/obmenu-generator/icons/74dd26804240a995d85286b787f79b34.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Meld" icon="/home/drith/.config/obmenu-generator/icons/f70f40cc5539a0c3c059b3436383c07f.png"><action name="Execute"><command><![CDATA[meld]]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/drith/.config/obmenu-generator/icons/dee989eb02cc83f25de9841a33800206.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+    <item label="VSCodium" icon="/home/drith/.config/obmenu-generator/icons/23a3e1b2d00b3ae5a83f1108228be111.png"><action name="Execute"><command><![CDATA[/usr/share/vscodium/bin/codium --no-sandbox --unity-launch]]></command></action></item>
+  </menu>
+  <menu id="0.861660221215921" icon="/home/drith/.config/obmenu-generator/icons/7809e03f5c460f0e398e5b1695b79c48.png" label="Graphics">
+    <item label="GNU Image Manipulation Program" icon="/home/drith/.config/obmenu-generator/icons/a2ffd3117ba4638b02bc4310514b5f93.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Gpick" icon="/home/drith/.config/obmenu-generator/icons/ce29ecd99b44156d6c8c6501a0b531e4.png"><action name="Execute"><command><![CDATA[gpick]]></command></action></item>
+    <item label="Viewnior" icon="/home/drith/.config/obmenu-generator/icons/493f3402f66869fe3a9f4b02dfb72c53.png"><action name="Execute"><command><![CDATA[viewnior]]></command></action></item>
+  </menu>
+  <menu id="0.0604075094571108" icon="/home/drith/.config/obmenu-generator/icons/49880f2f1ebb2fea19d2e85d67f77c8d.png" label="Multimedia">
+    <item label="mpv Media Player" icon="/home/drith/.config/obmenu-generator/icons/9badc4551f3243b9d8524867421e136d.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="Ncmpcpp - Album Art" icon="/home/drith/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch albumart"]]></command></action></item>
+    <item label="Ncmpcpp - Single Album Art" icon="/home/drith/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch single-albumart"]]></command></action></item>
+    <item label="Ncmpcpp" icon="/home/drith/.config/obmenu-generator/icons/d73349bd7f447e7abb6e998aa6becfbe.png"><action name="Execute"><command><![CDATA[bash -c "${HOME}/.ncmpcpp/launch"]]></command></action></item>
+    <item label="PulseAudio Equalizer" icon="/home/drith/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pulseaudio-equalizer-gtk]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/drith/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/drith/.config/obmenu-generator/icons/36479ab58288ab561f1a80ade5c9b2d9.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/drith/.config/obmenu-generator/icons/437fd53062a722712093dc696f7012b8.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+  </menu>
+  <menu id="0.826318147112019" icon="/home/drith/.config/obmenu-generator/icons/f52c14733fa4d0b8912ab57d73f76b76.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/drith/.config/obmenu-generator/icons/d2b8240c11dcc85114b4a004b179a681.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/drith/.config/obmenu-generator/icons/d2b8240c11dcc85114b4a004b179a681.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Chromium" icon="/home/drith/.config/obmenu-generator/icons/e44a320be0e0e43ae292222ef3e3d154.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium]]></command></action></item>
+    <item label="Firefox" icon="/home/drith/.config/obmenu-generator/icons/3df5dc63b239e9ddc00672b602385491.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Mail Reader" icon="/home/drith/.config/obmenu-generator/icons/c49966c63eeb75e970c3a22dda112f6f.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="NetworkManager Dmenu" icon="/home/drith/.config/obmenu-generator/icons/f5b51390b69bbe6976857b2aa37eda2f.png"><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="Web Browser" icon="/home/drith/.config/obmenu-generator/icons/c8d1f58c595c3f86a235909a3a1045f5.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.303033122696743" icon="/home/drith/.config/obmenu-generator/icons/ee0d8e1abc046978c307d1a6f82184ee.png" label="Office">
+    <item label="Atril Document Viewer" icon="/home/drith/.config/obmenu-generator/icons/3818357cfb08036fdd72505006bacf44.png"><action name="Execute"><command><![CDATA[atril]]></command></action></item>
+    <item label="PyRoom" icon="/home/drith/.config/obmenu-generator/icons/ab66997156c2316a73c35de32ee107c0.png"><action name="Execute"><command><![CDATA[/usr/bin/pyroom]]></command></action></item>
+  </menu>
+  <menu id="0.466837890720022" icon="/home/drith/.config/obmenu-generator/icons/09cca5a90cf66e2acc310777357e01cd.png" label="Settings">
+    <item label="Accessibility" icon="/home/drith/.config/obmenu-generator/icons/fc6f88d39b099fc0c7d4810360021092.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/drith/.config/obmenu-generator/icons/5d3a22719dee1c6ca72743f808cf7f3d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Appearance" icon="/home/drith/.config/obmenu-generator/icons/237aa883941b8d872c4170ab1b7ce803.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Bluetooth Adapters" icon="/home/drith/.config/obmenu-generator/icons/27d24b548f51717f914c455a0a93dd1f.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Bluetooth Manager" icon="/home/drith/.config/obmenu-generator/icons/27d24b548f51717f914c455a0a93dd1f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Color Profiles" icon="/home/drith/.config/obmenu-generator/icons/ea16e6bf1547a93343bf6ea7d680d6d6.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/drith/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Default applications for LXSession" icon="/home/drith/.config/obmenu-generator/icons/a875cf4a747954180a81f86a60b55377.png"><action name="Execute"><command><![CDATA[lxsession-default-apps]]></command></action></item>
+    <item label="Default Applications" icon="/home/drith/.config/obmenu-generator/icons/8fcf961746d49c824723bb450e6bf1d8.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Desktop Session Settings" icon="/home/drith/.config/obmenu-generator/icons/a875cf4a747954180a81f86a60b55377.png"><action name="Execute"><command><![CDATA[lxsession-edit]]></command></action></item>
+    <item label="Display" icon="/home/drith/.config/obmenu-generator/icons/1bd9be1e6730b695ec0ef3ebbb6328b4.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/drith/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Keyboard" icon="/home/drith/.config/obmenu-generator/icons/3db6c2fc55b590c1697f1a015dc06158.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/drith/.config/obmenu-generator/icons/08143f8bb82c44cd63a021079db1b4c3.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/drith/.config/obmenu-generator/icons/51a27c63a93d08788e726d5afa7a2f98.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="NetworkManager Dmenu" icon="/home/drith/.config/obmenu-generator/icons/f5b51390b69bbe6976857b2aa37eda2f.png"><action name="Execute"><command><![CDATA[networkmanager_dmenu]]></command></action></item>
+    <item label="Notifications" icon="/home/drith/.config/obmenu-generator/icons/38e1179534e5f5401bc77fd9946b7b87.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon="/home/drith/.config/obmenu-generator/icons/a30af125b2fb4edbb0c8e2117bed49c3.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/drith/.config/obmenu-generator/icons/6e895989cd797fdd696f83b4efae326c.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Power Manager" icon="/home/drith/.config/obmenu-generator/icons/d3f70cde88650603abe358e3cb6d455e.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/drith/.config/obmenu-generator/icons/873ee53b91fad3d714f1aa5b7771b924.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/drith/.config/obmenu-generator/icons/443fe2def79609cd24041ae67a69dedf.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/drith/.config/obmenu-generator/icons/9718643b54e43179a5dd583c2ccaf74f.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/drith/.config/obmenu-generator/icons/849faf0840dc8c911a529d5d854f2cb1.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/drith/.config/obmenu-generator/icons/0867f54217ccae01b3363467a0cae17f.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/drith/.config/obmenu-generator/icons/c2f2190ae5b063a06a7417a115564bac.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Xfce Terminal Settings" icon="/home/drith/.config/obmenu-generator/icons/e0dd3dbe740d13d8b33b40b51396a538.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+    <item label="YAD settings" icon="/home/drith/.config/obmenu-generator/icons/06095d57ff5d478c4f2196eecefa4056.png"><action name="Execute"><command><![CDATA[yad-settings]]></command></action></item>
+  </menu>
+  <menu id="0.320303971404801" icon="/home/drith/.config/obmenu-generator/icons/4eac2c15c4f59baf2bfb242091dc05a6.png" label="System">
+    <item label="About Archcraft" icon="/home/drith/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[about-os]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/drith/.config/obmenu-generator/icons/5d3a22719dee1c6ca72743f808cf7f3d.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Alacritty" icon="/home/drith/.config/obmenu-generator/icons/8e48aa476c479386d555af3954a25252.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Avahi Zeroconf Browser" icon="/home/drith/.config/obmenu-generator/icons/d2b8240c11dcc85114b4a004b179a681.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/drith/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Disk Usage Analyzer" icon="/home/drith/.config/obmenu-generator/icons/1bf8ead9507246ea3046c7847d622612.png"><action name="Execute"><command><![CDATA[baobab]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/drith/.config/obmenu-generator/icons/253ccbfd9dc6b320c2bf7b7010063ded.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="GParted" icon="/home/drith/.config/obmenu-generator/icons/11296c26a6eb1a3c0e8610c1fd8ef7e5.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Hardware Locality lstopo" icon="/home/drith/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[lstopo]]></command></action></item>
+    <item label="Help and Tips" icon="/home/drith/.config/obmenu-generator/icons/e6b2e652c7a22f79410c8198f0cf2807.png"><action name="Execute"><command><![CDATA[help-and-tips]]></command></action></item>
+    <item label="Htop" icon="/home/drith/.config/obmenu-generator/icons/2d6763aca5a7f29f7cd45ba5d8b32024.png"><action name="Execute"><command><![CDATA[urxvt -e 'htop']]></command></action></item>
+    <item label="Manage Printing" icon="/home/drith/.config/obmenu-generator/icons/14072444d3179867621cefb2be749b80.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="ranger" icon="/home/drith/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[urxvt -e 'ranger']]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/drith/.config/obmenu-generator/icons/4d537faf5d94f8ada3ff71163190b678.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Timeshift" icon="/home/drith/.config/obmenu-generator/icons/5e76518463b2a0f1a4872560af4290de.png"><action name="Execute"><command><![CDATA[timeshift-launcher]]></command></action></item>
+    <item label="Tint2" icon="/home/drith/.config/obmenu-generator/icons/c2f2190ae5b063a06a7417a115564bac.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="urxvt (client)" icon="/home/drith/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[urxvtc]]></command></action></item>
+    <item label="urxvt (tabbed)" icon="/home/drith/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[urxvt-tabbed]]></command></action></item>
+    <item label="urxvt" icon="/home/drith/.config/obmenu-generator/icons/9aa4750ea248b00504bbad1f79166592.png"><action name="Execute"><command><![CDATA[urxvt]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/drith/.config/obmenu-generator/icons/43b91b3a50e184689fe3cb3ee4eafcad.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Open Terminal" icon="/home/drith/.config/obmenu-generator/icons/6b7a63f2cbee8f9c8a4eba028376691f.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal]]></command></action></item>
+    <item label="Open File Manager" icon="/home/drith/.config/obmenu-generator/icons/ef5525f3794d630f86d93c77000b5e1c.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch filemanager]]></command></action></item>
+  <separator/>
+  <menu id="0.205573904386938" icon="/home/drith/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png" label="Screenshot">
+    <item label="Now" icon="/home/drith/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-now delay]]></command></action></item>
+    <item label="After ..s" icon="/home/drith/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-timer]]></command></action></item>
+    <item label="Select window or draw" icon="/home/drith/.config/obmenu-generator/icons/4ebf1a05752024f5c4ffa9f7854587f4.png"><action name="Execute"><command><![CDATA[~/.scripts/shot-seldraw]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.959186741167098" label="Monitor Settings" execute="~/.config/openbox/pipe-menu/ob-randr.py" icon="/home/drith/.config/obmenu-generator/icons/24ed2898a266c6e05213847502e75af5.png"/>
+  <menu id="0.988730399859811" label="Advanced Settings" icon="/home/drith/.config/obmenu-generator/icons/3b33f5bca1a4272c65e9392be19d5ecc.png">
+    <item label="Menu Schema" icon="/home/drith/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/drith/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/drith/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/drith/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/drith/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/drith/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/drith/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/drith/.config/obmenu-generator/icons/bb09c7021a4c9d33ef552792ae1fa7c1.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+  <menu id="0.282133984176642" label="Openbox" icon="/home/drith/.config/obmenu-generator/icons/59e5fde7981f4d4bfdd804ae1aa217d9.png">
+    <item label="Openbox Autostart" icon="/home/drith/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/drith/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/drith/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/drith/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/drith/.config/obmenu-generator/icons/745dd7b7cf22a9083f3a8e2d11d24dee.png"><action name="Execute"><command><![CDATA[geany /home/drith/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure" icon="/home/drith/.config/obmenu-generator/icons/59e5fde7981f4d4bfdd804ae1aa217d9.png"><action name="Reconfigure"/></item>
+  </menu>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/drith/.config/obmenu-generator/icons/4f4227afc62272bdd3a72f398f8b8274.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <separator/>
+  <separator label="SESSIONS"/>
+  <menu id="0.734435758635087" icon="/home/drith/.config/obmenu-generator/icons/6da5e375c82dea67d39f1b2a7bc051e6.png" label="Theme Styling">
+    <item label="Change Wallpaper" icon="/home/drith/.config/obmenu-generator/icons/a311782080112da9da94906e9d884097.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal -e ~/.config/openbox/visual-mode/wally]]></command></action></item>
+    <item label="Reverse Terminal Visual" icon="/home/drith/.config/obmenu-generator/icons/6b7a63f2cbee8f9c8a4eba028376691f.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/termody]]></command></action></item>
+  <separator/>
+    <item label="Change Button Style" icon="/home/drith/.config/obmenu-generator/icons/b46d0825411933ca1da12589a022657c.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch terminal -e ~/.config/openbox/visual-mode/ob-button]]></command></action></item>
+    <item label="Swap Button [L/R]" icon="/home/drith/.config/obmenu-generator/icons/458b99d25aee88d25f52aaa4d2ea76bc.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/ob-button swap]]></command></action></item>
+  <separator/>
+    <item label="Toggle Minimal Mode" icon="/home/drith/.config/obmenu-generator/icons/4481847f838b921bfc462d6de228a761.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle minimal]]></command></action></item>
+    <item label="Switch Visual Mode" icon="/home/drith/.config/obmenu-generator/icons/05d2c34e50441fb44fe8a534990bc26c.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle]]></command></action></item>
+  </menu>
+  <separator/>
+    <item label="Restart UI" icon="/home/drith/.config/obmenu-generator/icons/c667d1527ccb8ee507541284b469ed98.png"><action name="Execute"><command><![CDATA[~/.config/openbox/visual-mode/mode-toggle just_ui]]></command></action></item>
+  <separator/>
+    <item label="Lockscreen" icon="/home/drith/.config/obmenu-generator/icons/56806929f3c35cb64a54a19d01bd00a6.png"><action name="Execute"><command><![CDATA[~/.scripts/default-apps/launch lockscreen]]></command></action></item>
+    <item label="Exit Openbox" icon="/home/drith/.config/obmenu-generator/icons/fca0b1a0dc973976e70cad0157b35b32.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
