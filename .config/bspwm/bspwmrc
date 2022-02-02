@@ -22,6 +22,13 @@
 # }
 # getcolors
 
+. "${HOME}/.owl4ce_var"
+
+# There was once a pulseaudio here.
+
+# UI appearance.
+{ "${VISMOD_DIR}/mode-toggle" just_ui && "$OB_TRAY"; } 2>/dev/null
+
 ## Configurations --------------------------------------------#
 workspaces() {
 	name=1
@@ -112,11 +119,19 @@ bspc rule -r *:*
 killall -9 xsettingsd sxhkd dunst ksuperkey xfce4-power-manager
 
 # Lauch notification daemon
-dunst \
--geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 9" \
--lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
--nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
--cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
+# dunst \
+# -geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 9" \
+# -lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
+# -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
+# -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
+
+killall -q picom
+
+# Wait until the processes have been shut down
+while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
+
+# Launch picom
+picom --config ~/.config/bspwm/picom.conf &	
 
 # Lauch xsettingsd daemon
 xsettingsd &
@@ -134,23 +149,18 @@ ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Enable power management
-xfce4-power-manager &
+# xfce4-power-manager &
 
 # Fix cursor
-xsetroot -cursor_name left_ptr
+# xsetroot -cursor_name left_ptr
 
 # Restore wallpaper
-bash $HOME/.fehbg
+# bash $HOME/.fehbg
 
 # Start mpd
-exec mpd &
+# exec mpd &
 
-. "${HOME}/.owl4ce_var"
 
-# There was once a pulseaudio here.
-
-# UI appearance.
-{ "${VISMOD_DIR}/mode-toggle" just_ui && "$OB_TRAY"; } 2>/dev/null
 # Start bspwm scripts
 # bspcolors
 # bspbar
