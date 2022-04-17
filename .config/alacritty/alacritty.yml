@@ -15,68 +15,27 @@ env:
   TERM: alacritty
   WINIT_X11_SCALE_FACTOR: '1.0'
 
-## Terminal window settings
+# ## Terminal window settings
 window:
-  dimensions:
-    columns: 82
-    lines: 25
-
   padding:
-    x: 12
-    y: 12
+    x: 10
+    y: 10
 
-  decorations: full
-  startup_mode: Windowed
-  dynamic_title: true
-
-## scrolling
+  #   ## scrolling
   history: 10000
   multiplier: 3
 
-## Background opacity
-background_opacity: 0.96
+  opacity: .96
 
-## Cursor
+# ## Background opacity
+
+# ## Cursor
 cursor:
   style:
     shape: underline
     blinking: On
 
-  unfocused_hollow: false
+#   unfocused_hollow: false
 
-## Live config reload
+# ## Live config reload
 live_config_reload: true
-
-
-# Colors (PaperColor - Light)
-colors:
-  # Default colors
-  primary:
-    background: '0xf9f9f9'
-    foreground: '0xa1d5f7'
-
-  cursor:
-    text: '0xf9f9f9'
-    cursor: '0xa1d5f7'
-
-  # Normal colors
-  normal:
-    black:   '0xf9f9f9'
-    red:     '0x8e918f'
-    green:   '0x8e918f'
-    yellow:  '0x5f8700'
-    blue:    '0xf9f9f9'
-    magenta: '0xa1d5f7'
-    cyan:    '0x005f87'
-    white:   '0x444444'
-
-  # Bright colors
-  bright:
-    black:   '0xbcbcbc'
-    red:     '0xd70000'
-    green:   '0xd70087'
-    yellow:  '0x8700af'
-    blue:    '0xd75f00'
-    magenta: '0xd75f00'
-    cyan:    '0x005faf'
-    white:   '0x005f87'

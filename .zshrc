@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=${HOME}/bin:/usr/local/bin:$PATH
-export PATH="${HOME}/.local/bin:${HOME}/.cargo/bin:${PATH}"
+export PATH="${HOME}/.local/bin:${HOME}/.cargo/bin:${PATH}:${HOME}.config/composer/vendor/bin "
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
@@ -111,9 +111,15 @@ zstyle :bracketed-paste-magic paste-finish paste_done
 #
 # Aliases
 
-#costum
+export CHROME_EXECUTABLE="/usr/bin/brave"
+
 
 PRIV="$(command -v doas || command -v sudo)"
+
+alias pacman="sudo pacman"
+alias psyu="sudo pacman -Syu --noconfirm"
+alias zsh="code ~/.zshrc"
+alias visual-toggle="~/.config/openbox/visual-mode/mode-toggle"
 
 alias c="clear"
 alias q="exit"
@@ -136,12 +142,8 @@ alias nanosu="${PRIV} nano"
 alias nvimsu="${PRIV} nvim"
 alias clean_ram="${PRIV} sh -c 'sync; echo 3 > /proc/sys/vm/drop_caches'"
 
-alias change_wallpaper="~/.config/openbox/visual-mode/wally"
-alias zsh="code ~/.zshrc"
-alias chrome="/opt/google/chrome/chrome "
-
-# alias ls="exa -lgh --icons --group-directories-first"
-# alias la="exa -lgha --icons --group-directories-first"
+#alias ls="exa -lgh --icons --group-directories-first"
+#alias la="exa -lgha --icons --group-directories-first"
 
 # Color-Toys Aliases
 alias 256colors2="${HOME}/.color-toys/256colors2.pl"
