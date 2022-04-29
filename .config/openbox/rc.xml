@@ -232,7 +232,7 @@
       <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
-        <width>1/2</width>
+        <width>90/181</width>
         <height>1/1</height>
       </action>
     </keybind>
@@ -240,23 +240,50 @@
       <action name="MoveResizeTo">
         <x>-0</x>
         <y>0</y>
-        <width>1/2</width>
+        <width>90/181</width>
         <height>1/1</height>
-      </action>
+      </action> 
     </keybind>
     <keybind key="W-S-Up">
       <action name="MoveResizeTo">
         <y>0</y>
-        <width>1/2</width>
-        <height>1/2</height>
+        <width>90/181</width>
+        <height>90/181</height>
       </action>
     </keybind>
     <keybind key="W-S-Down">
       <action name="MoveResizeTo">
         <y>-0</y>
+        <width>90/181</width>
+        <height>90/181</height>
+      </action>
+    </keybind>
+    <keybind key="A-S-1">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
         <width>1/2</width>
         <height>1/2</height>
       </action>
+    </keybind>
+    <keybind key="A-S-2">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>3/4</width>
+        <height>3/4</height>
+      </action>
+    </keybind>
+    <keybind key="A-S-3">
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>7/8</width>
+        <height>7/8</height>
+      </action>
+    </keybind>
+    <keybind key="W-S-d">
+      <action name="ToggleDecorations"/>
     </keybind>
     <!-- desktop switching -->
     <keybind key="W-1">
@@ -349,10 +376,7 @@
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
-    </keybind>
-    <keybind key="W-t">
-      <action name="ToggleDecorations"/>
-    </keybind>
+    </keybind>v
     <keybind key="W-S-r">
       <action name="Execute">
         <command>bash -c '~/.config/openbox/visual-mode/mode-toggle just_ui; openbox --reconfigure'</command>
@@ -427,7 +451,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>/opt/google/chrome/chrome</command>
+        <command>brave</command>
       </action>
     </keybind>
     <keybind key="W-e">
@@ -460,6 +484,7 @@
         <command>bash -c '~/.config/rofi/scripts/screenshot.sh'</command>
       </action>
     </keybind>
+
     <keybind key="C-A-S-W-d">
       <action name="Execute">
         <command>bash -c '~/.config/rofi/scripts/appsmenu.sh'</command>
@@ -818,7 +843,7 @@
   </menu>
   <applications>
     <application class="*" type="normal">
-      <decor>yes</decor>
+      <decor>no</decor>
     </application>
     <!--
     <application class="Thunar" type="normal">

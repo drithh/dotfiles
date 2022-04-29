@@ -119,7 +119,7 @@ PRIV="$(command -v doas || command -v sudo)"
 alias pacman="sudo pacman"
 alias psyu="sudo pacman -Syu --noconfirm"
 alias zsh="code ~/.zshrc"
-alias visual-toggle="~/.config/openbox/visual-mode/mode-toggle"
+alias visual_toggle="~/.config/openbox/visual-mode/mode-toggle"
 
 alias c="clear"
 alias q="exit"

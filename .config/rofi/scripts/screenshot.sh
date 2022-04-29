@@ -36,29 +36,29 @@ countdown () {
 
 # take shots
 shotnow () {
-	cd ${dir} && sleep 0.5 && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	cd ${dir} && sleep 0.5 && maim -u -f png "$file" && xclip -selection clipboard -t image/png ${dir}/"$file"
 	notify_user
 }
 
 shot5 () {
 	countdown '5'
-	sleep 1 && cd ${dir} && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	sleep 1 && cd ${dir} && maim -u -f png "$file" && xclip -selection clipboard -t image/png ${dir}/"$file"
 	notify_user
 }
 
 shot10 () {
 	countdown '10'
-	sleep 1 && cd ${dir} && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	sleep 1 && cd ${dir} && maim -u -f png "$file" && xclip -selection clipboard -t image/png ${dir}/"$file"
 	notify_user
 }
 
 shotwin () {
-	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` "$file" && viewnior ${dir}/"$file"
+	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` "$file" && xclip -selection clipboard -t image/png ${dir}/"$file"
 	notify_user
 }
 
 shotarea () {
-	cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l "$file" && viewnior ${dir}/"$file"
+	cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l "$file" && xclip -selection clipboard -t image/png ${dir}/"$file"
 	notify_user
 }
 
