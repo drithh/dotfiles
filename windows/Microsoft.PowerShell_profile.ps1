@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config 'C:\Users\drith\theme.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\drith\powershell.theme.json' | Invoke-Expression
 
 # Shows navigable menu of all options when hitting Tab
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
